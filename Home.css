@@ -1,0 +1,53 @@
+.homeHero{
+  overscroll-behavior: none;
+  background:rgb(255, 255, 255);
+  height: 200vh;
+}
+
+.bgHome {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 30;
+  background-image: url('./images/bg.png'); 
+  background-position: center;
+}
+
+/* Hide the image within the background container */
+.bgHomeImg {
+  display: none;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .bgHome {
+    background-size: contain;
+  }
+}
+
+
+.backgroundHome {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Hide the image within the background container */
+.backgroundHomeImg {
+  display: none;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .backgroundHome {
+    background-size: contain;
+  }
+}
+
